@@ -11,6 +11,7 @@ Scenario: Create - should succeed
 	
 Scenario: Get - should fail - when user not found
 	
+
 Scenario: Update - should succeed
 	When I create new user: name-'john' job-'programmer'
 	Then I see create user response values: name-'john' job-'programmer' created-'today'

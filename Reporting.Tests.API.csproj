@@ -9,10 +9,6 @@
         <IsPackable>true</IsPackable>
     </PropertyGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\Libraries\Flow.Microservice.Tests\Flow.Microservice.Tests.csproj" />
-        <ProjectReference Include="..\Reporting.PublicContracts\Reporting.PublicContracts.csproj" />
-    </ItemGroup>
-    <ItemGroup>
         <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
         <PackageReference Include="ExtentReports" Version="4.1.0" />
@@ -22,7 +18,6 @@
         <PackageReference Include="nunit" Version="3.12.0" />
         <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
         <PackageReference Include="RestSharp" Version="106.12.0" />
-        <PackageReference Include="Specflow" Version="3.4.8" />
         <PackageReference Include="TimePeriodLibrary.NET" Version="2.1.1" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
         <PackageReference Include="SpecFlow" Version="3.4.8" />
