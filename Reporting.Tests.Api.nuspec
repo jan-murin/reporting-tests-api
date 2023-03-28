@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Visma.Flow.Reporting.Tests.API</id>
+    <version>$version$</version>
+    <title>Visma Flyt Reporting API Tests</title>
+    <authors>Visma Unique AS</authors>
+    <owners>Visma Unique AS</owners>
+    <description>Visma Flyt Reporting API Tests</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2020</copyright>
+  </metadata>
+
+  <files>
+    <file src="$outputDir$\**" target="" />
+  </files>
+</package>
